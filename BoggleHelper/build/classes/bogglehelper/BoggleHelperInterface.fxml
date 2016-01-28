@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bogglehelper.BoggleHelperInterfaceController">
+   <children>
+      <TextField fx:id="tfield11" layoutX="14.0" layoutY="14.0" prefHeight="60.0" prefWidth="60.0" text="я" AnchorPane.bottomAnchor="366.0" />
+      <TextField fx:id="tfield21" layoutX="14.0" layoutY="88.0" prefHeight="60.0" prefWidth="60.0" text="с" />
+      <TextField fx:id="tfield31" layoutX="14.0" layoutY="162.0" prefHeight="60.0" prefWidth="60.0" text="ь" />
+      <TextField fx:id="tfield41" layoutX="14.0" layoutY="236.0" prefHeight="60.0" prefWidth="60.0" text="е" />
+      <TextField fx:id="tfield51" layoutX="14.0" layoutY="310.0" prefHeight="60.0" prefWidth="60.0" text="р" />
+      <TextField fx:id="tfield12" layoutX="88.0" layoutY="14.0" prefHeight="60.0" prefWidth="60.0" text="т" />
+      <TextField fx:id="tfield22" layoutX="88.0" layoutY="88.0" prefHeight="60.0" prefWidth="60.0" text="а" />
+      <TextField fx:id="tfield32" layoutX="88.0" layoutY="162.0" prefHeight="60.0" prefWidth="60.0" text="т" />
+      <TextField fx:id="tfield42" layoutX="88.0" layoutY="236.0" prefHeight="60.0" prefWidth="60.0" text="е" />
+      <TextField fx:id="tfield52" layoutX="88.0" layoutY="310.0" prefHeight="60.0" prefWidth="60.0" text="и" />
+      <TextField fx:id="tfield13" layoutX="162.0" layoutY="14.0" prefHeight="60.0" prefWidth="60.0" text="р" />
+      <TextField fx:id="tfield23" layoutX="162.0" layoutY="88.0" prefHeight="60.0" prefWidth="60.0" text="и" />
+      <TextField fx:id="tfield33" layoutX="162.0" layoutY="162.0" prefHeight="60.0" prefWidth="60.0" text="в" />
+      <TextField fx:id="tfield43" layoutX="162.0" layoutY="236.0" prefHeight="60.0" prefWidth="60.0" text="а" />
+      <TextField fx:id="tfield53" layoutX="162.0" layoutY="310.0" prefHeight="60.0" prefWidth="60.0" text="н" />
+      <TextField fx:id="tfield14" layoutX="236.0" layoutY="14.0" prefHeight="60.0" prefWidth="60.0" text="б" />
+      <TextField fx:id="tfield24" layoutX="236.0" layoutY="88.0" prefHeight="60.0" prefWidth="60.0" text="и" />
+      <TextField fx:id="tfield34" layoutX="236.0" layoutY="162.0" prefHeight="60.0" prefWidth="60.0" text="ж" />
+      <TextField fx:id="tfield44" layoutX="236.0" layoutY="236.0" prefHeight="60.0" prefWidth="60.0" text="е" />
+      <TextField fx:id="tfield54" layoutX="236.0" layoutY="310.0" prefHeight="60.0" prefWidth="60.0" text="д" />
+      <TextField fx:id="tfield15" layoutX="310.0" layoutY="14.0" prefHeight="60.0" prefWidth="60.0" text="о" />
+      <TextField fx:id="tfield25" layoutX="310.0" layoutY="88.0" prefHeight="60.0" prefWidth="60.0" text="с" />
+      <TextField fx:id="tfield35" layoutX="310.0" layoutY="162.0" prefHeight="60.0" prefWidth="60.0" text="о" />
+      <TextField fx:id="tfield45" layoutX="310.0" layoutY="236.0" prefHeight="60.0" prefWidth="60.0" text="п" />
+      <TextField fx:id="tfield55" layoutX="310.0" layoutY="310.0" prefHeight="60.0" prefWidth="60.0" text="о" />
+      <Button fx:id="btnshow" layoutX="14.0" layoutY="384.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="356.0" text="Показать слова" onAction="#pressBtnShow"/>
+      <TextArea fx:id="tarea" layoutX="398.0" layoutY="14.0" prefHeight="412.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
